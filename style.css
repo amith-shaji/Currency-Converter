@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10vmin;
+}
+.container{
+    background-color:rgb(233, 64, 115);
+    color:white;
+    height: 45vmin;
+    padding:40px;
+    border-radius:10px;
+    border: none;
+    text-align: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.9rem;
+    margin-top:20px;
+    font-size: 1.5rem;
+}
+.amount input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+select{
+    padding:1px;
+    font-size:1rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    gap:4rem;
+}
+.convert{
+    width:300px;
+    padding: 10px;
+    border-radius:10px;
+    border:none;
+    font-size:1.5rem;
+    color:black;
+    margin-top:90px;
+}
+.convert:hover{
+    opacity: 0.9;
+}
+.from, .to{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.msg{
+    position:absolute;
+    margin-top: 10px;
+    left:36%;
+}
