@@ -24,12 +24,3 @@ A web application that allows users to convert amounts between different currenc
 2. **Fetching Exchange Rates**: When the user clicks the "Convert" button, the application fetches the current exchange rate from the Exchange Rate API.
 3. **Displaying Results**: The converted amount is displayed along with the target currency.
 4. **Dynamic Updates**: The currency dropdowns are populated with options, and the appropriate flag icons are displayed based on the selected currency.
-
-## API Details
-
-- **Exchange Rate API**: [ExchangeRate-API](https://api.exchangerate-api.com/v4/latest)
-  - Endpoint: `https://api.exchangerate-api.com/v4/latest/{baseCurrency}`
-  - Fetches the latest exchange rates relative to the base currency.
-
-- **Flags API**: [Flags API](https://flagsapi.com/)
-  - Provides flag images for countries based on their currency codes.
